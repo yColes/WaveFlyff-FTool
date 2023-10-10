@@ -1,0 +1,43 @@
+﻿<Window x:Class="NextFTool.MessageBoxCustom"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:fa="http://schemas.fontawesome.io/icons/"
+        xmlns:local="clr-namespace:NextFTool"
+        mc:Ignorable="d"
+        Height="100" Width="300"        
+        AllowsTransparency="True" Background="Transparent"
+        WindowStyle="None" ResizeMode="NoResize"
+        Title="MessageBox"
+        MouseDown="MessageBoxCustom_MouseDown">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="50"/>
+        </Grid.RowDefinitions>
+
+        <Border CornerRadius="10" Grid.RowSpan="3">
+            <Border.Background>
+                <LinearGradientBrush>
+                    <GradientStop Color="#1f0801" Offset="0.0"/>
+                </LinearGradientBrush>
+            </Border.Background>
+        </Border>
+
+        <Button Name="Btn_Close" Click="CloseButton_Click" Background="{x:Null}" BorderThickness="0" Grid.Row="0" Width="12" HorizontalAlignment="Right" VerticalAlignment="Center" Height="16" Margin="0,0,7,34">
+            <StackPanel>
+                <fa:ImageAwesome Icon="Times" Foreground="White" />
+            </StackPanel>
+        </Button>
+
+        <Label x:Name="Label_Custom_Message" FontFamily="{StaticResource Nunito-Regular}" Foreground="White" Grid.Row="0" Content="Mensagem Custom" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+
+        <Button Grid.Row="2" Width="50"  x:Name="Confirm_Button" Click="Confirm_Button_Click" Background="{x:Null}" BorderThickness="1" HorizontalAlignment="Left" Margin="125,10,0,10" >
+            <StackPanel Orientation="Horizontal">
+                <Label FontSize="10" Content="OK" Foreground="White"/>
+            </StackPanel>
+        </Button>
+
+    </Grid>
+</Window>
