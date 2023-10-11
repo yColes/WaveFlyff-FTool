@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Height="100" Width="300"        
         AllowsTransparency="True" Background="Transparent"
-        WindowStyle="None" ResizeMode="NoResize"
+        WindowStyle="None" ResizeMode="CanResizeWithGrip"
         Title="MessageBox"
         MouseDown="MessageBoxCustom_MouseDown">
     <Grid>
@@ -20,7 +20,7 @@
         <Border CornerRadius="10" Grid.RowSpan="3">
             <Border.Background>
                 <LinearGradientBrush>
-                    <GradientStop Color="#1f0801" Offset="0.0"/>
+                    <GradientStop Color="#FF1F1F1F" Offset="0.0"/>
                 </LinearGradientBrush>
             </Border.Background>
         </Border>

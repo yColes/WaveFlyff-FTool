@@ -7,13 +7,13 @@ using System.Windows;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("WaveFtool - NextFTool")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("WaveFtool")]
+[assembly: AssemblyDescription("WaveFtool para WaveFlyff.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("WaveFtool - NextFTool")]
+[assembly: AssemblyCompany("WaveFlyff")]
+[assembly: AssemblyProduct("WaveFtool")]
 [assembly: AssemblyCopyright("Copyright ©  2023")]
-[assembly: AssemblyTrademark("")]
+[assembly: AssemblyTrademark("WaveFlyff")]
 [assembly: AssemblyCulture("")]
 
 // Setting ComVisible to false makes the types in this assembly not visible

@@ -8,7 +8,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="400"
         AllowsTransparency="True" Background="Transparent"
-        WindowStyle="None" ResizeMode="NoResize"
+        WindowStyle="None" ResizeMode="CanResizeWithGrip"
         MouseDown="MainWindow_OnMouseDown">
     <Grid>
         <Grid.RowDefinitions>
@@ -24,7 +24,7 @@
         <Border CornerRadius="10" Grid.RowSpan="7" Margin="0,0,0,10">
             <Border.Background>
                 <LinearGradientBrush>
-                    <GradientStop Color="#1f0801
+                    <GradientStop Color="#FF1F1F1F
                                   " Offset="0.0"/>
                 </LinearGradientBrush>
             </Border.Background>
@@ -44,7 +44,7 @@
             </StackPanel>
         </Button>
 
-        <Label Grid.Row="0" Foreground="White" Content="Versão 1.1 - Editado por Coles feito por enfy" Height="24" VerticalAlignment="Top" FontFamily="{StaticResource Nunito-Regular}" Margin="0,0,44,0"/>
+        <Label Grid.Row="0" Foreground="White" Content="WaveFtool" Height="24" VerticalAlignment="Top" FontFamily="{StaticResource Nunito-Regular}" Margin="0,0,44,0"/>
 
         <StackPanel Grid.Row="1" Margin="0" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Separator Foreground="White" BorderBrush="White"  Width="380" HorizontalAlignment="Center" VerticalAlignment="Top" Opacity="0.35" Height="15"/>
